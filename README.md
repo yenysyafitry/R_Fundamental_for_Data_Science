@@ -17,8 +17,7 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
    <tr>  <td>[1]</td> <td>Menunjukkan posisi urutan dari hasil output pertama. Kebetulan disini output hanya ada satu item, yaitu angka 27 jadi posisinya otomatis adalah 1.</td></tr>
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
 
-<label for="browser">Choose your browser from the list:</label>
-  <input list="browsers" name="browser" id="browser">
+
   <datalist id="browsers">
     <option value="Edge">
     <option value="Firefox">
@@ -26,4 +25,4 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
     <option value="Opera">
     <option value="Safari">
   </datalist>
-  <input type="submit">
+
