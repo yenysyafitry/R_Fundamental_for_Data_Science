@@ -6,7 +6,7 @@
 3. Telah terbukti (Proven): R sudah digunakan oleh banyak data scientist perusahaan besar seperti Anz, Uber, dan Facebook dan memberikan solusi riil. Tidak heran jika akhirnya dari kisah sukses ini, banyak lowongan data scientist mencamtumkan R sebagai syarat keterampilan yang harus dimiliki.</br>
 4. Lebih Cepat (Faster): Banyak fungsi R memberikan hasil jauh lebih cepat dibandingkan dengan aplikasi lain.
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
-<table><tr><th style="width:130px">Code Editor</th>   <th style="width:80px">Console</th> </tr>
+<table><tr><th style="width:130px">Code Editor</th>   <th style="width:80px">Output</th> </tr>
   <tr><td>9</td>        <td>[1] 9</td>      </tr>
   <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
   <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
@@ -18,27 +18,4 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
 
 
-  <!DOCTYPE html>
-<html>
-<body>
-
-<h1>The datalist element</h1>
-
-<form action="/action_page.php" method="get">
-  <label for="browser">Choose your browser from the list:</label>
-  <input list="browsers" name="browser" id="browser">
-  <datalist id="browsers">
-    <option value="Edge">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  <input type="submit">
-</form>
-
-<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
-
-</body>
-</html>
 
