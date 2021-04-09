@@ -8,7 +8,7 @@
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
 <table border="2">
   <caption>Monthly savings</caption>
-  <tr><th bgcolor="yellow"> Elemen</th><th>Keterangan</th></tr>
+  <tr style="background-color:red"><th bgcolor="yellow"> Elemen</th><th>Keterangan</th></tr>
   <tr> <td>></td> <td>Prompt dari R</td></tr>
   <tr>  <td>9 * 3</td><td>Perintah untuk melakukan perkalian angka 9 dan 3</td></tr>
    <tr>  <td>[1]</td> <td>Menunjukkan posisi urutan dari hasil output pertama. Kebetulan disini output hanya ada satu item, yaitu angka 27 – jadi posisinya otomatis adalah 1.</td></tr>
