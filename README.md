@@ -18,11 +18,11 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
  <table><caption><b> Menampilkan dengan Fungsi Print</b></caption>
 <tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
-  <tr><td>print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
-  <tr><td>print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
+  <tr><td>> print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
+  <tr><td>> print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
 
 <table><caption><b> Variable :</b></caption>
 <tr><th>Source Coding</th>   <th >Output</th> </tr>
-  <tr><td>budi_berat_kg<- 68 </br>santi_berat_kg <- 54.5 </br>budi_berat_kg </br>santi_berat_kg</td> <td></br></br>[1] 68</br>[1] 54.5</td> </tr>  
-   <tr><td>pi <- 3.14 </br>pi</td>        <td></br>[1] 3.14 </td>      </tr>    </table>
+<tr><td>> budi_berat_kg<- 68 </br>> santi_berat_kg <- 54.5 </br>> budi_berat_kg </br>> santi_berat_kg</td> <td></br></br>> [1] 68</br>> [1] 54.5</td> </tr> 
+   <tr><td>> pi <- 3.14 </br>> pi</td>        <td></br>>[1] 3.14 </td>      </tr>    </table>
 <p align="justify"><b>Comment pada R </b></br>Comment atau komentar adalah teks yang bisa dimasukkan di R, tapi tidak dianggap sebagai code yang bisa dieksekusi. Comment ini biasanya digunakan sebagai catatan untuk menjelaskan potongan code yang ada. Membuat comment sangat mudah. Caranya adalah menuliskan tanda pagar (<b></b>#) yang kemudian diikuti dengan tulisan apapun.</p>
