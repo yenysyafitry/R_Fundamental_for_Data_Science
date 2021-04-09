@@ -18,6 +18,15 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
 
 
+  <!DOCTYPE html>
+<html>
+<body>
+
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
   <datalist id="browsers">
     <option value="Edge">
     <option value="Firefox">
@@ -25,4 +34,11 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
     <option value="Opera">
     <option value="Safari">
   </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+</body>
+</html>
 
