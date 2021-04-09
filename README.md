@@ -6,7 +6,7 @@
 3. Telah terbukti (Proven): R sudah digunakan oleh banyak data scientist perusahaan besar seperti Anz, Uber, dan Facebook dan memberikan solusi riil. Tidak heran jika akhirnya dari kisah sukses ini, banyak lowongan data scientist mencamtumkan R sebagai syarat keterampilan yang harus dimiliki.</br>
 4. Lebih Cepat (Faster): Banyak fungsi R memberikan hasil jauh lebih cepat dibandingkan dengan aplikasi lain.
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
-<table><tr><th style="width:130px">Code Editor</th>   <th style="width:80px">Output</th> </tr>
+<table><tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
   <tr><td>9</td>        <td>[1] 9</td>      </tr>
   <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
   <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
