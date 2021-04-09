@@ -28,5 +28,5 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
 <p align="justify"><b>Comment pada R </b></br>Comment atau komentar adalah teks yang bisa dimasukkan di R, tapi tidak dianggap sebagai code yang bisa dieksekusi. Comment ini biasanya digunakan sebagai catatan untuk menjelaskan potongan code yang ada. Membuat comment sangat mudah. Caranya adalah menuliskan tanda pagar (<b></b>#) yang kemudian diikuti dengan tulisan apapun.</p>
 <details>
   <summary>2 + 2 #Ini adalah baris komentar</summary>
-  <p><i>Output</i> [1] 4</p>
+  <p><i>Output :</i> [1] 4</p>
 </details>
