@@ -18,8 +18,7 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
  <table><caption> Menampilkan dengan Fungsi Print</caption>
 <tr><th style="width:130px">Code Editor</th>   <th style="width:80px">Output</th> </tr>
-  <tr><td>9</td>        <td>[1] 9</td>      </tr>
-  <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
-  <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
+  <tr><td>print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
+  <tr><td>print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
 
 
