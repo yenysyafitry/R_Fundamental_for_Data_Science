@@ -7,9 +7,9 @@
 4. Lebih Cepat (Faster): Banyak fungsi R memberikan hasil jauh lebih cepat dibandingkan dengan aplikasi lain.
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
 <table><tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
-  <tr><td>> 9</td>        <td>[1] 9</td>      </tr>
-  <tr><td>> "Budi"</td>   <td>[1] "Budi"</td> </tr>
-  <tr><td>> 9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
+  <tr><td> 9</td>        <td>>9</br>[1] 9</td>      </tr>
+  <tr><td> "Budi"</td>   <td>>"Budi" </br>[1] "Budi"</td> </tr>
+  <tr><td> 9 * 3 </td>   <td>>9 * 3 </br>[1] 27</td>     </tr>     </table>
 <table><caption><b>Keterangan Dari Source Coding Diatas : </b></caption>
   <tr><th>Nama</th> <th>Keterangan</th></tr>
   <tr> <td>></td> <td>Prompt dari R</td></tr>
@@ -18,8 +18,8 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
  <table><caption><b> Menampilkan dengan Fungsi Print</b></caption>
 <tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
-  <tr><td>> print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
-  <tr><td>> print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
+  <tr><td> print("Hello World")</td>  <td>>print("Hello World")</br>[1] "Hello World"</td></tr>
+  <tr><td> print(3 + 4) </td>   <td>>print(3 + 4)</br>[1] 7 </td> </tr></table>
 
 <table><caption><b> Variable :</b></caption>
 <tr><th>Source Coding</th>   <th >Output</th> </tr>
@@ -28,5 +28,5 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
 <p align="justify"><b>Comment pada R </b></br>Comment atau komentar adalah teks yang bisa dimasukkan di R, tapi tidak dianggap sebagai code yang bisa dieksekusi. Comment ini biasanya digunakan sebagai catatan untuk menjelaskan potongan code yang ada. Membuat comment sangat mudah. Caranya adalah menuliskan tanda pagar (<b></b>#) yang kemudian diikuti dengan tulisan apapun.</p>
 <details>
   <summary>2 + 2 #Ini adalah baris komentar</summary>
-  <p> [1] 4</p>
+  <p><i>Output</i> [1] 4</p>
 </details>
