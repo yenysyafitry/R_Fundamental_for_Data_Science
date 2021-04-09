@@ -7,9 +7,9 @@
 4. Lebih Cepat (Faster): Banyak fungsi R memberikan hasil jauh lebih cepat dibandingkan dengan aplikasi lain.
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
 <table><tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
-  <tr><td>9</td>        <td>[1] 9</td>      </tr>
-  <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
-  <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
+  <tr><td>> 9</td>        <td>[1] 9</td>      </tr>
+  <tr><td>> "Budi"</td>   <td>[1] "Budi"</td> </tr>
+  <tr><td>> 9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
 <table><caption><b>Keterangan Dari Source Coding Diatas : </b></caption>
   <tr><th>Nama</th> <th>Keterangan</th></tr>
   <tr> <td>></td> <td>Prompt dari R</td></tr>
