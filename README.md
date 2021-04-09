@@ -6,10 +6,14 @@
 3. Telah terbukti (Proven): R sudah digunakan oleh banyak data scientist perusahaan besar seperti Anz, Uber, dan Facebook dan memberikan solusi riil. Tidak heran jika akhirnya dari kisah sukses ini, banyak lowongan data scientist mencamtumkan R sebagai syarat keterampilan yang harus dimiliki.</br>
 4. Lebih Cepat (Faster): Banyak fungsi R memberikan hasil jauh lebih cepat dibandingkan dengan aplikasi lain.
 Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singkat, sehingga data scientist dapat jauh lebih produktif dalam memahami data dan menghasilkan informasi.</p>
-<table border="2">
-  <caption>Monthly savings</caption>
-  <tr><th>Elemen</th><th>Keterangan</th></tr>
+<table><tr><th style="width:130px">Code Editor</th>   <th style="width:80px">Console</th> </tr>
+  <tr><td>9</td>        <td>[1] 9</td>      </tr>
+  <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
+  <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
+<table><caption>Keterangan Dari Source Coding Diatas :</caption>
+  <tr><th style="width:130px">Elemen Ekspresi</th> <th>Keterangan</th></tr>
   <tr> <td>></td> <td>Prompt dari R</td></tr>
   <tr>  <td>9 * 3</td><td>Perintah untuk melakukan perkalian angka 9 dan 3</td></tr>
    <tr>  <td>[1]</td> <td>Menunjukkan posisi urutan dari hasil output pertama. Kebetulan disini output hanya ada satu item, yaitu angka 27 jadi posisinya otomatis adalah 1.</td></tr>
-    <tr> <td>27</td> <td>Hasil output.</td></tr></table>
+  <tr> <td>27</td> <td>Hasil output.</td></tr></table>
+
