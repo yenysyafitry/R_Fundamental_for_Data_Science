@@ -10,18 +10,18 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr><td>9</td>        <td>[1] 9</td>      </tr>
   <tr><td>"Budi"</td>   <td>[1] "Budi"</td> </tr>
   <tr><td>9 * 3 </td>   <td>[1] 27</td>     </tr>     </table>
-<table><caption>Keterangan Dari Source Coding Diatas :</caption>
+<table><caption><b>Keterangan Dari Source Coding Diatas : </b></caption>
   <tr><th>Nama</th> <th>Keterangan</th></tr>
   <tr> <td>></td> <td>Prompt dari R</td></tr>
   <tr>  <td>9 * 3</td><td>Perintah untuk melakukan perkalian angka 9 dan 3</td></tr>
    <tr>  <td>[1]</td> <td>Menunjukkan posisi urutan dari hasil output pertama. Kebetulan disini output hanya ada satu item, yaitu angka 27 jadi posisinya otomatis adalah 1.</td></tr>
   <tr> <td>27</td> <td>Hasil output.</td></tr></table>
- <table><caption> Menampilkan dengan Fungsi Print</caption>
+ <table><caption><b> Menampilkan dengan Fungsi Print</b></caption>
 <tr><th style="width:130px">Source Coding</th>   <th style="width:80px">Output</th> </tr>
   <tr><td>print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
   <tr><td>print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
 
-<table><caption> Variable </caption>
+<table><caption><b> Variable </b></caption>
 <tr><th>Source Coding</th>   <th >Output</th> </tr>
   <tr><td>budi_berat_kg<- 68 </br>santi_berat_kg <- 54.5 </br>budi_berat_kg </br>santi_berat_kg</td> <td></br></br>[1] 68</br>[1] 54.5</td> </tr>  
    <tr><td>pi <- 3.14 </br>pi</td>        <td></br>[1] 3.14 </td>      </tr>    </table>
