@@ -30,4 +30,4 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <summary>2 + 2 #Ini adalah baris komentar</summary>
   <table border="0"><tr><td><i>Output :</i></td><td>>2 + 2</br> [1] 4</td></tr></table>
 </details>
-<p style="color:red">This is a paragraph.</p>
+ <input type="text" id="fname" name="fname"><br><br>
