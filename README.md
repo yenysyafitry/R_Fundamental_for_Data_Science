@@ -21,4 +21,7 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <tr><td>print("Hello World")</td>        <td>[1] "Hello World"</td>      </tr>
   <tr><td>print(3 + 4) </td>   <td>[1] 7 </td>     </tr>     </table>
 
-
+<table><caption> Variable </caption>
+<tr><th>Source Coding</th>   <th >Output</th> </tr>
+  <tr><td>budi_berat_kg<- 68 </br>santi_berat_kg <- 54.5 </br>budi_berat_kg </br>santi_berat_kg</td> <td></br></br>[1] 68</br>[1] 54.5</td> </tr>  
+   <tr><td>pi <- 3.14<- 68 </br>pi</td>        <td></br>[1] 3.14 </td>      </tr>    </table>
