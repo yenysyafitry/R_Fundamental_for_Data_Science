@@ -35,7 +35,8 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
 knitr::opts_chunk$set(echo = TRUE, comment = "", message = F, warning = F)
 ```
 
-# [Code Pertama, Hello World!](https://academy.dqlab.id/main/livecode/1/3/635)
+# [Code Pertama, Hello World!]
+<a href="https://academy.dqlab.id/main/livecode/1/3/635">Link materi : https://academy.dqlab.id/main/livecode/1/3/635</a>
 
 ```{r}
 "Hello World"
@@ -43,6 +44,7 @@ knitr::opts_chunk$set(echo = TRUE, comment = "", message = F, warning = F)
 ```
 
 # [Teks, Angka dan Rumus Perhitungan](https://academy.dqlab.id/main/livecode/1/3/6)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 9
@@ -51,6 +53,7 @@ knitr::opts_chunk$set(echo = TRUE, comment = "", message = F, warning = F)
 ```
 
 # [Menampilkan dengan Fungsi Print](https://academy.dqlab.id/main/livecode/1/3/705)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 print("Hello World")
@@ -58,6 +61,7 @@ print(3 + 4)
 ```
 
 # [Huruf Besar, Huruf Kecil dan Format Angka](https://academy.dqlab.id/main/livecode/1/3/636)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 01
@@ -69,12 +73,14 @@ print(3 + 4)
 ```
 
 # [Function](https://academy.dqlab.id/main/livecode/1/3/7)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 c(5:10)
 ```
 
 # [Variable](https://academy.dqlab.id/main/livecode/1/3/10)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 budi_berat_kg <- 68
@@ -86,12 +92,14 @@ pi
 ```
 
 # [Comment pada R](https://academy.dqlab.id/main/livecode/1/3/9)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 2 + 2 # Ini adalah baris komentar
 ```
 
 # [Vector](https://academy.dqlab.id/main/livecode/1/4/14)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Ini adalah contoh vector untuk angka numerik dengan 3 data c(4, 5, 6)
@@ -103,6 +111,7 @@ print(angka)
 ```
 
 # [Deretan Nilai dengan Operator :](https://academy.dqlab.id/main/livecode/1/4/708)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 angka1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
@@ -112,6 +121,7 @@ print(angka2)
 ```
 
 # [Vector dengan Isi Teks](https://academy.dqlab.id/main/livecode/1/4/709)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Variable nama_mahasiswa dengan input character
@@ -120,6 +130,7 @@ print(nama_mahasiswa)
 ```
 
 # [Index dan Accessor pada Vector](https://academy.dqlab.id/main/livecode/1/4/15)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Buat vector variable bernama angka yang isinya 20 s/d 30
@@ -138,6 +149,7 @@ print(kode_prodi[3])
 ```
 
 # [Named Vector](https://academy.dqlab.id/main/livecode/1/4/16)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Membuat named vector dengan nama nilai
@@ -157,6 +169,8 @@ print(profil)
 ```
 
 # [List](https://academy.dqlab.id/main/livecode/1/4/17)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+
 
 ```{r}
 # List disimpan dalam variable dengan nama list_random
@@ -177,7 +191,7 @@ print(kota)
 ```
 
 # [List Index](https://academy.dqlab.id/main/livecode/1/4/18)
-
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 ```{r}
 # Membentuk list dengan 2 angka dan 1 character
 list_saya <- list(2, "Budi", 4)
@@ -192,6 +206,7 @@ list_satu[1]
 ```
 
 # [Data Frame](https://academy.dqlab.id/main/livecode/1/4/20)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Membuat dua variable vector
@@ -209,7 +224,7 @@ info_mahasiswa
 ```
 
 # [Cara Akses Data Frame](https://academy.dqlab.id/main/livecode/1/4/21)
-
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 ```{r}
 # Membuat tiga variable vector
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
@@ -224,6 +239,7 @@ info_mahasiswa$fakultas
 ```
 
 # [Package ggplot2](https://academy.dqlab.id/main/livecode/1/5/766)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
@@ -240,6 +256,7 @@ gambar
 ```
 
 # [Membuat Grafik Sebaran Mahasiswa (1)](https://academy.dqlab.id/main/livecode/1/5/22)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Membuat dua vector
@@ -266,6 +283,7 @@ gambar
 ```
 
 # [Membaca File Excel](https://academy.dqlab.id/main/livecode/1/5/24)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 # Menggunakan package ggplot2
@@ -281,6 +299,7 @@ print(mahasiswa$Prodi)
 ```
 
 # [Membuat Grafik Sebaran Mahasiswa (2)](https://academy.dqlab.id/main/livecode/1/5/770)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 library(ggplot2)
@@ -297,6 +316,7 @@ gambar
 ```
 
 # [Trend Jumlah Mahasiswa dari Tahun ke Tahun](https://academy.dqlab.id/main/livecode/1/5/767)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 library(ggplot2)
@@ -317,6 +337,7 @@ ggplot(summarybyfakultas, aes(x=fakultas, y=jumlah_mahasiswa)) +
 ```
 
 # [Pie Chart](https://academy.dqlab.id/main/livecode/1/5/768)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 library(ggplot2)
@@ -340,6 +361,7 @@ piechart
 ```
 
 # [Filtering](https://academy.dqlab.id/main/livecode/1/5/769)
+<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
 
 ```{r}
 library("ggplot2")
