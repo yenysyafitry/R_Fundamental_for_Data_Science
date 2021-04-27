@@ -35,35 +35,35 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
 knitr::opts_chunk$set(echo = TRUE, comment = "", message = F, warning = F)
 ```
 
-# [Code Pertama, Hello World!]
+### [Code Pertama, Hello World!]
 <a href="https://academy.dqlab.id/main/livecode/1/3/635">Link materi : https://academy.dqlab.id/main/livecode/1/3/635</a>
 
-```{r}
+```plantuml
 "Hello World"
 1 + 5
 ```
 
-# [Teks, Angka dan Rumus Perhitungan](https://academy.dqlab.id/main/livecode/1/3/6)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Teks, Angka dan Rumus Perhitungan]
+<a href="https://academy.dqlab.id/main/livecode/1/3/6">Link materi : https://academy.dqlab.id/main/livecode/1/3/6</a>
 
-```{r}
+```plantuml
 9
 "Budi"
 9 * 3
 ```
 
-# [Menampilkan dengan Fungsi Print](https://academy.dqlab.id/main/livecode/1/3/705)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Menampilkan dengan Fungsi Print]
+<a href="https://academy.dqlab.id/main/livecode/1/3/705">Link materi : https://academy.dqlab.id/main/livecode/1/3/705</a>
 
-```{r}
+```plantuml
 print("Hello World")
 print(3 + 4)
 ```
 
-# [Huruf Besar, Huruf Kecil dan Format Angka](https://academy.dqlab.id/main/livecode/1/3/636)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Huruf Besar, Huruf Kecil dan Format Angka]
+<a href="https://academy.dqlab.id/main/livecode/1/3/636">Link materi : https://academy.dqlab.id/main/livecode/1/3/636</a>
 
-```{r}
+```plantuml
 01
 1
 "01-01-1980"
@@ -72,17 +72,17 @@ print(3 + 4)
 "BUDI"
 ```
 
-# [Function](https://academy.dqlab.id/main/livecode/1/3/7)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Function]
+<a href="https://academy.dqlab.id/main/livecode/1/3/7">Link materi : https://academy.dqlab.id/main/livecode/1/3/7</a>
 
-```{r}
+```plantuml
 c(5:10)
 ```
 
-# [Variable](https://academy.dqlab.id/main/livecode/1/3/10)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Variable] 
+<a href="https://academy.dqlab.id/main/livecode/1/3/10">Link materi : https://academy.dqlab.id/main/livecode/1/3/10</a>
 
-```{r}
+```plantuml
 budi_berat_kg <- 68
 santi_berat_kg <- 54.5
 budi_berat_kg
@@ -91,67 +91,67 @@ pi <- 3.14
 pi
 ```
 
-# [Comment pada R](https://academy.dqlab.id/main/livecode/1/3/9)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Comment pada R] 
+<a href="https://academy.dqlab.id/main/livecode/1/3/9">Link materi : https://academy.dqlab.id/main/livecode/1/3/9</a>
 
-```{r}
+```plantuml
 2 + 2 # Ini adalah baris komentar
 ```
 
-# [Vector](https://academy.dqlab.id/main/livecode/1/4/14)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Vector] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/14">Link materi : https://academy.dqlab.id/main/livecode/1/4/14</a>
 
-```{r}
-# Ini adalah contoh vector untuk angka numerik dengan 3 data c(4, 5, 6)
+```plantuml
+#Ini adalah contoh vector untuk angka numerik dengan 3 data c(4, 5, 6)
 c(4, 5, 6)
-# Variable bernama angka dengan input berupa vector
+#Variable bernama angka dengan input berupa vector
 angka <- c(4, 5, 6)
-# Tampilkan isi variable angka dengan fungsi print
+#Tampilkan isi variable angka dengan fungsi print
 print(angka)
 ```
 
-# [Deretan Nilai dengan Operator :](https://academy.dqlab.id/main/livecode/1/4/708)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Deretan Nilai dengan Operator :] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/708">Link materi : https://academy.dqlab.id/main/livecode/1/4/708</a>
 
-```{r}
+```plantuml
 angka1 <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 print(angka1)
 angka2 <- c(1:10)
 print(angka2)
 ```
 
-# [Vector dengan Isi Teks](https://academy.dqlab.id/main/livecode/1/4/709)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Vector dengan Isi Teks] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/709">Link materi : https://academy.dqlab.id/main/livecode/1/4/709</a>
 
-```{r}
-# Variable nama_mahasiswa dengan input character
+```plantuml
+#Variable nama_mahasiswa dengan input character
 nama_mahasiswa <- c("Amira","Budi","Charlie")
 print(nama_mahasiswa)
 ```
 
-# [Index dan Accessor pada Vector](https://academy.dqlab.id/main/livecode/1/4/15)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Index dan Accessor pada Vector] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/15">Link materi : https://academy.dqlab.id/main/livecode/1/4/15</a>
 
-```{r}
-# Buat vector variable bernama angka yang isinya 20 s/d 30
+```plantuml
+#Buat vector variable bernama angka yang isinya 20 s/d 30
 angka <- c(20:30)
 print(angka)
-# Tampilkan isi variable angka pada posisi ke 3
+#Tampilkan isi variable angka pada posisi ke 3
 print(angka[3])
-# Tampilkan isi variable angka pada posisi ke 5
+#Tampilkan isi variable angka pada posisi ke 5
 print(angka[[5]])
-# Tampilkan isi variable angka pada posisi ke 4 s/d 6
+#Tampilkan isi variable angka pada posisi ke 4 s/d 6
 print(angka[4:6])
-# Buat vector teks dengan nama kode_prodi yang diisi sesuai petunjuk soal
+#Buat vector teks dengan nama kode_prodi yang diisi sesuai petunjuk soal
 kode_prodi <- c("DKV","ILKOM","ICT")
-# Tampilkan isi indeks ketiga dari kode_prodi
+#Tampilkan isi indeks ketiga dari kode_prodi
 print(kode_prodi[3])
 ```
 
-# [Named Vector](https://academy.dqlab.id/main/livecode/1/4/16)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Named Vector] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/16">Link materi : https://academy.dqlab.id/main/livecode/1/4/16</a>
 
-```{r}
+```plantuml
 # Membuat named vector dengan nama nilai
 nilai <- c(statistik = 89, 
            fisika = 95, 
@@ -168,31 +168,32 @@ profil <- c(nama = "Budi",
 print(profil)
 ```
 
-# [List](https://academy.dqlab.id/main/livecode/1/4/17)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [List] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/17">Link materi : https://academy.dqlab.id/main/livecode/1/4/17</a>
 
 
-```{r}
-# List disimpan dalam variable dengan nama list_random
+```plantuml
+#List disimpan dalam variable dengan nama list_random
 list_random <- list(2, "Budi", 4)
-# Menampilkan isi list
+#Menampilkan isi list
 list_random 
-# List disimpan dalam variable dengan nama dati2
+#List disimpan dalam variable dengan nama dati2
 dati2 <- list(nama = "Denpasar", 
               propinsi = "Bali")
-# Menampilkan isi list dati2
+#Menampilkan isi list dati2
 dati2 
-# Buat variable kota sesuai permintaan soal
+#Buat variable kota sesuai permintaan soal
 kota <- list(nama_kota = "Makassar", 
              propinsi = "Sulawesi Selatan", 
              luas_km2 = 199.3)
-# Tampilkan isi variable list kota
+#Tampilkan isi variable list kota
 print(kota)
 ```
 
-# [List Index](https://academy.dqlab.id/main/livecode/1/4/18)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
-```{r}
+### [List Index] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/18">Link materi : https://academy.dqlab.id/main/livecode/1/4/18</a>
+
+```plantuml
 # Membentuk list dengan 2 angka dan 1 character
 list_saya <- list(2, "Budi", 4)
 # Menampilkan index kedua dengan aksesor kurung siku tunggal 
@@ -205,10 +206,10 @@ list_satu <- list(1, "Online", TRUE)
 list_satu[1]
 ```
 
-# [Data Frame](https://academy.dqlab.id/main/livecode/1/4/20)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Data Frame] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/20">Link materi : https://academy.dqlab.id/main/livecode/1/4/20</a>
 
-```{r}
+```plantuml
 # Membuat dua variable vector
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
 jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
@@ -223,9 +224,9 @@ info_mahasiswa <- data.frame(info_mahasiswa, akreditasi)
 info_mahasiswa
 ```
 
-# [Cara Akses Data Frame](https://academy.dqlab.id/main/livecode/1/4/21)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
-```{r}
+### [Cara Akses Data Frame] 
+<a href="https://academy.dqlab.id/main/livecode/1/4/21">Link materi : https://academy.dqlab.id/main/livecode/1/4/21</a>
+```plantuml
 # Membuat tiga variable vector
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
 jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
@@ -238,10 +239,10 @@ info_mahasiswa$jumlah_mahasiswa
 info_mahasiswa$fakultas
 ```
 
-# [Package ggplot2](https://academy.dqlab.id/main/livecode/1/5/766)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Package ggplot2] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/766">Link materi : https://academy.dqlab.id/main/livecode/1/5/766</a>
 
-```{r}
+```plantuml
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
 jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
 akreditasi <- c("A","A","B","A","A")
@@ -255,76 +256,76 @@ gambar <- ggplot(info_mahasiswa, aes(x=fakultas, y=jumlah_mahasiswa, fill=fakult
 gambar
 ```
 
-# [Membuat Grafik Sebaran Mahasiswa (1)](https://academy.dqlab.id/main/livecode/1/5/22)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Membuat Grafik Sebaran Mahasiswa (1)] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/22">Link materi : https://academy.dqlab.id/main/livecode/1/5/22</a>
 
-```{r}
-# Membuat dua vector
+```plantuml
+#Membuat dua vector
 fakultas <- c("Bisnis", "D3 Perhotelan", "ICT", "Ilmu Komunikasi", "Seni dan Desain")
 jumlah_mahasiswa <- c(260, 28, 284, 465, 735)
 akreditasi <- c("A","A","B","A","A")
-# Buat data frame dari ketiga vector di atas
+#Buat data frame dari ketiga vector di atas
 info_mahasiswa <- data.frame(fakultas, jumlah_mahasiswa, akreditasi)
 info_mahasiswa
-# Menggunakan package ggplot2
+#Menggunakan package ggplot2
 library(ggplot2)
-# Membuat kanvas
+#Membuat kanvas
 gambar <- ggplot(info_mahasiswa, aes(x=fakultas, y=jumlah_mahasiswa, fill=fakultas))
-# Menambahkan objek bar chart, simpan kembali sebagai variable gambar
+#Menambahkan objek bar chart, simpan kembali sebagai variable gambar
 gambar <- gambar + geom_bar(width=1, stat="identity")
-# Menambahkan judul grafik
+#Menambahkan judul grafik
 gambar <- gambar + ggtitle("Jumlah Mahasiswa per Fakultas")
-# Menambahkan caption pada sumbu x
+#Menambahkan caption pada sumbu x
 gambar <- gambar + xlab("Nama Fakultas")
-# Menambahkan caption pada sumbu y
+#Menambahkan caption pada sumbu y
 gambar <- gambar + ylab("Jumlah Mahasiswa")
-# Menggambar grafik
+#Menggambar grafik
 gambar
 ```
 
-# [Membaca File Excel](https://academy.dqlab.id/main/livecode/1/5/24)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Membaca File Excel] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/24">Link materi : https://academy.dqlab.id/main/livecode/1/5/24</a>
 
-```{r}
-# Menggunakan package ggplot2
+```plantuml
+#Menggunakan package ggplot2
 library(ggplot2)
-# Menggunakan package openxlsx
+#Menggunakan package openxlsx
 library(openxlsx)
-# Membaca file mahasiswa.xlsx
+#Membaca file mahasiswa.xlsx
 mahasiswa <- read.xlsx("https://academy.dqlab.id/dataset/mahasiswa.xlsx", sheet = "Sheet 1")
-# Menampilkan data
+#Menampilkan data
 print(mahasiswa)
-# Menampilkan kolom Prodi
+#Menampilkan kolom Prodi
 print(mahasiswa$Prodi)
 ```
 
-# [Membuat Grafik Sebaran Mahasiswa (2)](https://academy.dqlab.id/main/livecode/1/5/770)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Membuat Grafik Sebaran Mahasiswa (2)] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/770">Link materi : https://academy.dqlab.id/main/livecode/1/5/770</a>
 
-```{r}
+```plantuml
 library(ggplot2)
-# Menggunakan package openxlsx
+#Menggunakan package openxlsx
 library(openxlsx)
-# Membaca file mahasiswa.xlsx
+#Membaca file mahasiswa.xlsx
 mahasiswa <- read.xlsx("https://academy.dqlab.id/dataset/mahasiswa.xlsx", sheet = "Sheet 1")
-# Membuat kanvas
+#Membuat kanvas
 gambar <- ggplot(mahasiswa, aes(x=Fakultas, y=JUMLAH, fill=Fakultas))
-# Menambahkan objek bar chart, simpan kembali sebagai variable gambar
+#Menambahkan objek bar chart, simpan kembali sebagai variable gambar
 gambar <- gambar + geom_bar(width=1, stat="identity")
-# Menggambar grafik
+#Menggambar grafik
 gambar
 ```
 
-# [Trend Jumlah Mahasiswa dari Tahun ke Tahun](https://academy.dqlab.id/main/livecode/1/5/767)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Trend Jumlah Mahasiswa dari Tahun ke Tahun] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/767">Link materi : https://academy.dqlab.id/main/livecode/1/5/767</a>
 
-```{r}
+```plantuml
 library(ggplot2)
-# Menggunakan package openxlsx
+#Menggunakan package openxlsx
 library(openxlsx)
-# Membaca file mahasiswa.xlsx
+#Membaca file mahasiswa.xlsx
 mahasiswa <- read.xlsx("https://academy.dqlab.id/dataset/mahasiswa.xlsx", sheet = "Sheet 1")
-# Menghitung Jumlah Data by Fakultas
+#Menghitung Jumlah Data by Fakultas
 summarybyfakultas <- aggregate(x=mahasiswa$JUMLAH, 
                                by=list(Kategori=mahasiswa$Fakultas, Tahun=mahasiswa$ANGKATAN), 
                                FUN=sum)
@@ -336,15 +337,15 @@ ggplot(summarybyfakultas, aes(x=fakultas, y=jumlah_mahasiswa)) +
   theme_classic()
 ```
 
-# [Pie Chart](https://academy.dqlab.id/main/livecode/1/5/768)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Pie Chart] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/768">Link materi : https://academy.dqlab.id/main/livecode/1/5/768</a>
 
-```{r}
+```plantuml
 library(ggplot2)
 library(openxlsx)
-# Membaca file mahasiswa.xlsx
+#Membaca file mahasiswa.xlsx
 mahasiswa <- read.xlsx("https://academy.dqlab.id/dataset/mahasiswa.xlsx", sheet = "Sheet 1")
-# Menghitung Jumlah Data by Fakultas
+#Menghitung Jumlah Data by Fakultas
 summarybyfakultas <- aggregate(x=mahasiswa$JUMLAH, 
                                by=list(Kategori=mahasiswa$Fakultas), 
                                FUN=sum)
@@ -360,15 +361,15 @@ piechart <- piechart + ylab("Jumlah Mahasiswa")
 piechart
 ```
 
-# [Filtering](https://academy.dqlab.id/main/livecode/1/5/769)
-<a href="https://academy.dqlab.id/main/livecode/163/308/1418">Link materi : academy.dqlab.id/main/livecode/163/308/1418</a>
+### [Filtering] 
+<a href="https://academy.dqlab.id/main/livecode/1/5/769">Link materi : https://academy.dqlab.id/main/livecode/1/5/769</a>
 
-```{r}
+```plantuml
 library("ggplot2")
 library("openxlsx")
-# Membaca file mahasiswa.xlsx
+#Membaca file mahasiswa.xlsx
 mahasiswa <- read.xlsx("https://academy.dqlab.id/dataset/mahasiswa.xlsx", sheet = "Sheet 1")
-# Menghitung Jumlah Data by Fakultas
+#Menghitung Jumlah Data by Fakultas
 summarybyfakultas <- aggregate(x=mahasiswa$JUMLAH, 
                                by=list(Kategori=mahasiswa$Fakultas, Tahun=mahasiswa$ANGKATAN), 
                                FUN=sum)
