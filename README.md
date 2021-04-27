@@ -31,3 +31,6 @@ Contoh: R dapat menghasilkan berbagai visualisasi yang menarik dalam waktu singk
   <table border="0"><tr><td><i>Output :</i></td><td>>2 + 2</br> [1] 4</td></tr></table>
 </details>
 
+
+
+<p align="center"><b>E-Sertifikat </b></br><img src="https://github.com/yenysyafitry/R_Fundamental_for_Data_Science/blob/main/e-sertifikat.jpg"></p>
